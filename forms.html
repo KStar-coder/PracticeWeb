@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form action="mailto: chikalogoria@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input
+            type="text"
+            name = "nameField"
+            id="name"
+            placeholder="Enter your name"
+            required
+        >
+        <br/>
+        <br/>
+
+        <label for="email">Email</label>
+        <input
+            type="email"
+            name = "emailField"
+            id="email"
+            placeholder="Enter your Email Address"
+            required
+        >
+        <br/>
+        <br/>
+
+        <label for="password">Password</label>
+        <input
+            type="password"
+            name = "passwordField"
+            id="passoword"
+            placeholder="Enter password"
+            required
+        >
+        <br/>
+        <br/>
+
+
+        <!-- for a group of radio buttons name field must be same  -->
+        
+        <label for="radio">Male</label>
+        <input type="radio" name="genderField" id="radio">
+
+        <label for="radio">Female</label>
+        <input type="radio" name="genderField" id="radio">
+        <br/>
+        <br/>
+
+        <label for="textarea">Feedback</label>
+        <br>
+        
+        <textarea name = "name" rows="8" cols="80" placeholder="Your feedback is valueable to us!"></textarea>
+        <br/>
+        <br/>
+        <!-- submit button -->
+        <input type="submit" name="submitField" id="submit" value="Submit">
+
+
+    </form>
+</body>
+</html>
